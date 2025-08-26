@@ -1,0 +1,18 @@
+@import url('index.css');
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: var(--font-figtree);
+    background-color: var(--color-light-200);
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.bg-auth {
+    background-image: var(--background-image-auth);
+}
