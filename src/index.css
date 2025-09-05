@@ -50,6 +50,8 @@
     rgba(3, 3, 3, 0.54) -3.66%,
     rgba(6, 6, 6, 0) 45.57%
   );
+
+  --shadow-50:  0px 4px 10px 0px rgba(40, 40, 40, 0.12);
   --shadow-100: 0px 1px 3px 0px rgba(16, 24, 40, 0.1),
     0px 1px 2px 0px rgba(16, 24, 40, 0.06);
   --shadow-200: 0px 12px 16px -4px rgba(16, 24, 40, 0.1),

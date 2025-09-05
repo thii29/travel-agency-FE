@@ -1,31 +1,39 @@
+import Header from "../../components/user";
+
 const Homepage = () => {
   return (
     <>
-      <div className="bg-hero bg-cover bg-origin-content w-auto h-[680px]">
-        <div className="bg-linear100 bg-cover w-full h-full flex flex-col">
-          {/* Header bar */}
-          <div className="w-full h-[100px] flex justify-between items-center py-[30px] px-[140px]">
-            {/* Logo page */}
-            <div className=" flex justify-center items-center gap-1.5">
-              <img
-                src="./icons/logo.svg"
-                alt="logo"
-                width="30px"
-                height="30px"
-              />
-              <span className="font-inter font-bold  text-dark-100">
-                Tourvisto
-              </span>
+      <Header></Header>
+      <div className="w-auto h-[925px] mt-10 py-10 px-[140px] flex flex-col gap-10 bg-light-200">
+        {/* Title & sub title */}
+        <div className="w-full h-[88px] flex flex-col gap-3.5 font-figtree">
+          <h2 className="font-bold text-4xl">Featured Travel Destinations</h2>
+          <p className="text-lg text-gray-100">
+            Check out some of the best places you can visit around the world.
+          </p>
+        </div>
+
+        {/* Grid imgs */}
+        <div className="flex gap-[30px]">
+          <div className="w-[870px] flex flex-col">
+            {/* Featured card */}
+            <div className="w-full h-[297px] p-[30px] bg-card-1 bg-cover bg-center bg-no-repeat rounded-[14px] flex flex-col gap-2.5 justify-between">
+              <div className="w-[65px] h-7 px-[19px] py-0.5 rounded-20 bg-white
+                              font-bold text-lg text-red-100 leading-6 shadow-50">
+                3.5
+              </div>
+              <div className="w-full flex flex-col gap-3.5 text-white">
+                <h1 className="font-bold text-[30px]">Barcelona Tour</h1>
+                <div className="flex gap-2.5 w-fit">
+                  <img src="./images/david.webp" alt="" width="28.57px" className="rounded-full"/>
+                  <p className="text-lg">196 Activities</p>
+                </div>
+              </div>
             </div>
 
-            {/* User action */}
-            <div className="w-[217px] h-10 flex items-center gap-6">
-                <span className="text-base leading-6 font-normal text-white">Admin Panel</span>
-                <img src="./images/james.webp" alt="avatar" width="40px" className="rounded-full"/>
-            </div>
+            <div></div>
           </div>
 
-          {/* Slang & Started button */}
           <div></div>
         </div>
       </div>
