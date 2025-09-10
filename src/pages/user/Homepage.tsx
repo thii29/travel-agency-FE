@@ -15,26 +15,82 @@ const Homepage = () => {
 
         {/* Grid imgs */}
         <div className="flex gap-[30px]">
-          <div className="w-[870px] flex flex-col">
+          <div className="w-[870px] flex flex-col gap-[30px]">
             {/* Featured card */}
             <div className="w-full h-[297px] p-[30px] bg-card-1 bg-cover bg-center bg-no-repeat rounded-[14px] flex flex-col gap-2.5 justify-between">
-              <div className="w-[65px] h-7 px-[19px] py-0.5 rounded-20 bg-white
-                              font-bold text-lg text-red-100 leading-6 shadow-50">
+              <div
+                className="w-[65px] h-7 px-[19px] py-0.5 rounded-20 bg-white
+                              font-bold text-lg text-red-100 leading-6 shadow-50"
+              >
                 3.5
               </div>
               <div className="w-full flex flex-col gap-3.5 text-white">
                 <h1 className="font-bold text-[30px]">Barcelona Tour</h1>
                 <div className="flex gap-2.5 w-fit">
-                  <img src="./images/david.webp" alt="" width="28.57px" className="rounded-full"/>
+                  <img
+                    src="./images/david.webp"
+                    alt=""
+                    width="28.57px"
+                    className="rounded-full"
+                  />
                   <p className="text-lg">196 Activities</p>
                 </div>
               </div>
             </div>
 
-            <div></div>
+            <div className="h-[390px] flex justify-between">
+              <div className="w-[420px] h-[390px] p-[30px] bg-card-2 bg-cover bg-center bg-no-repeat rounded-[14px] flex flex-col gap-2.5 justify-between">
+                <div
+                  className="w-[65px] h-7 px-[19px] py-0.5 rounded-20 bg-white
+                              font-bold text-lg text-red-100 leading-6 shadow-50"
+                >
+                  3.5
+                </div>
+                <div className="w-full flex flex-col gap-3.5 text-white">
+                  <h1 className="font-bold text-[30px]">
+                    London, United State
+                  </h1>
+                  <div className="flex gap-2.5 w-fit">
+                    <img
+                      src="./images/david.webp"
+                      alt=""
+                      width="28.57px"
+                      className="rounded-full"
+                    />
+                    <p className="text-lg">196 Activities</p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[420px] h-[390px] p-[30px] bg-card-3 bg-cover bg-center bg-no-repeat rounded-[14px] flex flex-col gap-2.5 justify-between">
+                <div
+                  className="w-[65px] h-7 px-[19px] py-0.5 rounded-20 bg-white
+                              font-bold text-lg text-red-100 leading-6 shadow-50"
+                >
+                  3.5
+                </div>
+                <div className="w-full flex flex-col gap-3.5 text-white">
+                  <h1 className="font-bold text-[30px]">Austrailia Tour</h1>
+                  <div className="flex gap-2.5 w-fit">
+                    <img
+                      src="./images/david.webp"
+                      alt=""
+                      width="28.57px"
+                      className="rounded-full"
+                    />
+                    <p className="text-lg">196 Activities</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div></div>
+          <div className="w-[270px] flex flex-col justify-between gap-[20px]">
+            <div className="w-full h-[226px] bg-card-4 bg-cover bg-no-repeat rounded-[14px]">
+              
+            </div>
+            <div className="w-full h-[226px] bg-card-5 bg-cover bg-no-repeat rounded-[14px]"></div>
+            <div className="w-full h-[226px] bg-card-6 bg-cover bg-no-repeat rounded-[14px]"></div>
+          </div>
         </div>
       </div>
     </>
