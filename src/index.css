@@ -36,6 +36,8 @@
   --color-red-500: #b93815;
   --color-red-50: #fff4ed;
   --color-red-100: #ff543d;
+  --color-light-violet: #F3F0FB;
+  --color-violet: #6941C6;
 
   --background-image-auth: url("./images/auth-img.webp");
   --background-image-hero: url("./images/hero-img.png");
