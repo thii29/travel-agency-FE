@@ -26,9 +26,7 @@ const TripCard = () => {
             </div>
             <div className="w-full mt-5 flex gap-5">
               <LocationTag name="Mountains"/>
-              <span className="bg-light-violet w-fit h-[28px] py-2 px-5 rounded-[40px] text-center leading-3 font-medium text-xs text-violet">
-                City
-              </span>
+              <LocationTag name="City"/>
             </div>
           </div>
         </div>

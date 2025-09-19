@@ -1,3 +1,5 @@
+
+
 export const travelStyles = [
   "Relaxed",
   "Luxury",
